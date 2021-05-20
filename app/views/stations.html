@@ -1,0 +1,16 @@
+#{extends 'main.html' /}
+#{set title:'View Station Readings' /}
+
+#{menu id:"dashboard"/}
+
+#{list items:stations, as:'station'}
+<section class="ui segment">
+    <h2 class="ui header">
+        ${station.name}
+    </h2>
+    #{latestreadings station:station/}
+    #{listreadings station:station/}
+</section>
+#{/list}
+
+#{addreading station:station/}

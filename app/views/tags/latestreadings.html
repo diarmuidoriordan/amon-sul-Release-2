@@ -1,0 +1,100 @@
+#{list items:_station, as:'station'}
+  <div class="ui five inverted cards">
+    <div class="green card">
+      <div class="extra">
+        <div class="two column grid">
+          <div class="left floated left aligned column">
+            <h3 class="ui inverted white header"><br>${station.name}</h3>
+          </div>
+          <div class="right floated right aligned column">
+            <i class="inverted green huge map marked alternate icon"></i>
+          </div>
+        </div>
+        <div class="item"><br><br><br></div>
+        <div class="ui list">
+          <div class="item"><strong><em>Lat: </em></strong>${station.latitude}&deg;</div>
+          <div class="item"><strong><em>Lng: </em></strong>${station.longitude}&deg;</div>
+        </div>
+      </div>
+    </div>
+    <div class="green card">
+      <div class="extra">
+        <div class="two column grid">
+          <div class="left floated left aligned column">
+            <h3 class="header"><br>Weather</h3>
+          </div>
+          <div class="right floated right aligned column">
+            <i class="yellow huge cloud sun low icon"></i>
+          </div>
+        </div>
+        <div class="item"><br><br><br></div>
+        <div class="ui list">
+          <div class="item">${station.weatherFromCode}</div>
+        </div>
+      </div>
+    </div>
+    <div class="green card">
+      <div class="extra">
+        <div class="two column grid">
+          <div class="left floated left aligned column">
+            <h3 class="header"><br>Temp</h3>
+          </div>
+          <div class="right floated right aligned column">
+            <i class="red huge temperature low icon"></i>
+          </div>
+        </div>
+        <div class="item"><br><br><br></div>
+        <div class="ui list">
+          <div class="item">${station.tempC}&deg;C</div>
+          <div class="item">${station.tempF}&deg;F</div>
+          <div class="item"><br></div>
+          <div class="item"><strong><em>Max: </em></strong>${station.maxTempC}&deg;C</div>
+          <div class="item"><strong><em>Min: </em></strong>${station.minTempC}&deg;C</div>
+        </div>
+      </div>
+    </div>
+    <div class="green card">
+      <div class="extra">
+        <div class="two column grid">
+          <div class="left floated left aligned column">
+            <h3 class="header"><br>Wind</h3>
+          </div>
+          <div class="right floated right aligned column">
+            <i class="inverted grey huge wind icon"></i>
+          </div>
+        </div>
+        <div class="item"><br><br><br></div>
+        <div class="ui list">
+          <div class="item">${station.windBft} Bft</div>
+          <div class="item">${station.windDirectionOutput}</div>
+          <div class="item"><br></div>
+          <div class="item"><strong><em>Feels like: </em></strong></div>
+          <div class="item">${station.windChill}&deg;C</div>
+          <div class="item"><br></div>
+          <div class="item"><strong><em>Max: </em></strong>${station.maxWindSpeed}Km/h</div>
+          <div class="item"><strong><em>Min: </em></strong>${station.minWindSpeed}Km/h</div>
+          <div class="item"><br></div>
+        </div>
+      </div>
+    </div>
+    <div class="green card">
+      <div class="extra">
+        <div class="two column grid">
+          <div class="left floated left aligned column">
+            <h3 class="header"><br>Pressure</h3>
+          </div>
+          <div class="right floated right aligned column">
+            <i class="purple huge compress arrows alternate icon"></i>
+          </div>
+        </div>
+        <div class="item"><br><br><br></div>
+        <div class="ui list">
+          <div class="item">${station.pressureHPA} hPa</div>
+          <div class="item"><br></div>
+          <div class="item"><strong><em>Max: </em></strong>${station.maxPressure} hPa</div>
+          <div class="item"><strong><em>Min: </em></strong>${station.minPressure} hPa</div>
+        </div>
+      </div>
+    </div>
+  </div>
+#{/list}

@@ -1,0 +1,22 @@
+#{extends 'main.html' /}
+#{set title:'Start' /}
+
+#{welcomemenu id:"start"/}
+
+<div class="ui two column middle aligned grid basic segment">
+  <div class="column">
+    <form class="ui green stacked segment form" action="/authenticate" method="POST">
+      <h3 class="ui header">Log In</h3>
+      <div class="field">
+        <label>Email</label> <input placeholder="Email" name="email">
+      </div>
+      <div class="field">
+        <label>Password</label> <input type="password" name="password">
+      </div>
+      <button class="ui green submit button">Login</button>
+    </form>
+  </div>
+  <div class="column">
+    <img class="ui rounded image" src="/public/images/weathertop-painting.jpg">
+  </div>
+</div>

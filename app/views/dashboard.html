@@ -1,0 +1,20 @@
+#{extends 'main.html' /}
+#{set title:'Dashboard' /}
+
+#{menu id:"dashboard"/}
+
+#{list items:stations, as:'station'}
+  <section class="ui segment">
+    <h2 class="ui header">
+      ${station.name}
+    </h2>
+    <a href="/stations/${station.id}">
+      <div class="ui medium button">
+        <i class="green folder open icon" title="Open"></i>
+        View Readings from this Station
+      </div>
+    </a>
+  </section>
+#{/list}
+
+#{addstation /}
