@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/tags/addreading.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addreading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/addstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addstation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/latestreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/latestreadings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,19 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,10 +101,24 @@
       <workItem from="1621523859583" duration="50000" />
       <workItem from="1621524068845" duration="9228000" />
       <workItem from="1621586586734" duration="12000" />
+      <workItem from="1621588641194" duration="30000" />
+      <workItem from="1621592033747" duration="34000" />
+      <workItem from="1621691520176" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
