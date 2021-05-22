@@ -136,4 +136,35 @@ public class Conversions {
             return "ERROR";
         }
     }
+
+    public static String weatherIconFromCode(int code) {
+        switch(code) {
+            case 100:
+                //  Clear
+                return "yellow huge sun outline icon";
+            case 200:
+                //  Partial Clouds
+                return "ui inverted yellow huge cloud sun icon";
+            case 300:
+                //  Cloudy
+                return "ui inverted purple huge cloud icon";
+            case 400:
+                //  Light Showers
+                return "ui inverted primary huge cloud sun rain icon";
+            case 500:
+                //  Heavy Showers
+                return "grey huge cloud showers heavy icon";
+            case 600:
+                //  Rain
+                return "blue huge cloud rain icon";
+            case 700:
+                //  Snow
+                return "ui inverted white huge snowflake outline icon";
+                //  Thunder
+            case 800:
+                return "red huge poo storm icon";
+            default:
+                return "UNAVAILABLE";
+        }
+    }
 }

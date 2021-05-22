@@ -16,6 +16,7 @@ public class LatestWeather {
             reading = new Reading(0, 0.0, 0.0, 0, 0);
         }
         stations.weatherFromCode = Conversions.weatherCodeToString(reading.code);
+        stations.weatherIcon = Conversions.weatherIconFromCode(reading.code);
 
         stations.tempC = reading.temperature;
         stations.tempF = Conversions.tempToF(reading.temperature);

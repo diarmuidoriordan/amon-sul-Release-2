@@ -17,6 +17,7 @@ public class Station extends Model
   public double longitude;
 
   public String weatherFromCode;
+  public String weatherIcon;
 
   public double tempC;
   public double tempF;
