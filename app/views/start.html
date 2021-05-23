@@ -3,15 +3,18 @@
 
 #{welcomemenu id:"start"/}
 
-<div class="ui two column middle aligned grid basic segment">
+<div class="ui inverted two column middle aligned grid basic raised segment">
   <div class="column">
+    <h1 class="ui inverted white center aligned raised header">
+      Log In here to use <em>Amon S&ucirc;l</em>
+    </h1>
     <form class="ui green stacked segment form" action="/authenticate" method="POST">
       <h3 class="ui header">Log In</h3>
       <div class="field">
-        <label>Email</label> <input placeholder="Email" name="email">
+        <label>Email</label> <input placeholder="Email" name="email" required>
       </div>
       <div class="field">
-        <label>Password</label> <input type="password" name="password">
+        <label>Password</label> <input type="password" name="password" required>
       </div>
       <button class="ui green submit button">Login</button>
     </form>
@@ -20,3 +23,5 @@
     <img class="ui rounded image" src="/public/images/weathertop-painting.jpg">
   </div>
 </div>
+
+#{homeview /}
