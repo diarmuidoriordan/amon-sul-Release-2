@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <workItem from="1621695115407" duration="4344000" />
       <workItem from="1621764256987" duration="2323000" />
       <workItem from="1621767237672" duration="3354000" />
-      <workItem from="1621779373621" duration="1632000" />
+      <workItem from="1621779373621" duration="3299000" />
     </task>
     <servers />
   </component>
