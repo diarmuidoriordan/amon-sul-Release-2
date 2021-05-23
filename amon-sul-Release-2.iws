@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/StationCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationCtrl.java" afterDir="false" />
+    </list>
+>>>>>>> parent of a0b84f2 (README updated)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,8 +98,12 @@
       <workItem from="1621691520176" duration="95000" />
       <workItem from="1621695115407" duration="4344000" />
       <workItem from="1621764256987" duration="2323000" />
+<<<<<<< HEAD
       <workItem from="1621767237672" duration="3354000" />
       <workItem from="1621779373621" duration="3729000" />
+=======
+      <workItem from="1621767237672" duration="1631000" />
+>>>>>>> parent of a0b84f2 (README updated)
     </task>
     <servers />
   </component>
