@@ -43,5 +43,5 @@ Navigate to the Project folder in _**Terminal**_ or the _**Command Prompt**_, an
 
 * ```play run```
 
-In your browser, entre ```localhost:9000``` in the URL search bar. 
+In your browser, enter ```localhost:9000``` in the URL search bar. 
 Press the return key on your keyboard to view the project.

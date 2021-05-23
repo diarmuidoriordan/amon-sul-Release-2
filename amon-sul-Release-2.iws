@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/tags/homeview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-2.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/StationCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationCtrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +52,6 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,7 +93,8 @@
       <workItem from="1621592033747" duration="34000" />
       <workItem from="1621691520176" duration="95000" />
       <workItem from="1621695115407" duration="4344000" />
-      <workItem from="1621764256987" duration="2235000" />
+      <workItem from="1621764256987" duration="2323000" />
+      <workItem from="1621767237672" duration="1631000" />
     </task>
     <servers />
   </component>
